@@ -12,12 +12,16 @@
     padding: 1em;
     margin: none;
     color: white;
+    text-align: justify;
 }
 
 /*Medias query*/
 @media screen and (min-width:480px) and (max-width:940px) {
     .cardGenerales{
         color: black;
+    }
+    #contenedorBienvenida {
+        margin-right: 65%;
     }
 }
 @media screen and (min-width:941px) and (max-width:1300px) {
@@ -28,9 +32,11 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
+        margin-left: 55%;
     }
     .contenedorTexto{
-        margin: 4rem;
+        margin-left: 3rem;
+        
     }
     
 }
@@ -39,6 +45,7 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
+        margin-left: 60%;
     }
     .contenedorTexto{
         margin: 4rem;
