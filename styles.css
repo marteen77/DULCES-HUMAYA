@@ -71,3 +71,14 @@
 .cardProductos{
     color: peru;
 }
+
+.imagenProducto2{
+    background-image: url(./IMAGENES/Productos/Producto2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+/*.boton1{
+    color: peru;
+    outline-color: peru;
+}*/
