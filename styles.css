@@ -70,6 +70,7 @@
 
 .cardProductos{
     color: peru;
+    border-radius: 0px;
 }
 
 .imagenProducto2{
@@ -77,6 +78,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 20rem;
+    border-radius: 0px;
 }
 /*.boton1{
     color: peru;
