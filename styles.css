@@ -17,9 +17,9 @@
 /*Estilo de títulos divisores*/
 .titulos{
     color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(46, 46, 46);
     margin: 0px;
 }
 
@@ -73,6 +73,33 @@
     border-radius: 0px;
 }
 
+.cardAlfa{
+    color: rgb(77, 42, 10);
+    background-image: url(./IMAGENES/Productos/Producto4b.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.card-text{
+    color: white;
+    font-weight: lighter;
+}
+
+.card-text1{
+    color: white;
+    font-weight: lighter;
+}
+div h6{
+    color: rgb(227, 187, 137);
+    
+}
+.alfajores{
+    color: rgb(77, 42, 10) ;
+}
+
 .imagenProducto2{
     background-image: url(./IMAGENES/Productos/Producto2.png);
     background-size: cover;
@@ -80,7 +107,95 @@
     height: 20rem;
     border-radius: 0px;
 }
-/*.boton1{
+
+.imagenProducto3{
+    background-image: url(./IMAGENES/Productos/Producto3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 0px;
+}
+
+
+
+.boton1{
     color: peru;
     outline-color: peru;
-}*/
+}
+
+.formulario{
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+#campo{
+    background-color: rgb(105, 79, 55);
+    border-radius: 0px;
+}
+
+.form-label{
+    color: rgb(105, 79, 55);
+}
+.textoFormu{
+    color:rgb(105, 79, 55);
+}
+
+.cardRecetas{
+    background-color:rgb(227, 187, 137); 
+    border-radius: 0px;
+    font-size: small;
+    width: 15rem;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.recetas{
+    background-color: rgb(46, 46, 46);
+}
+
+.tituRecetas{
+    text-align: center;
+    color: white;
+}
+
+/***** Footer *****/
+
+.footer{
+    background-color:  rgb(46, 46, 46) ;
+}
+.footerImg{
+    background-image: url(./IMAGENES/Logo/LogoHumaya100x100.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    border-radius: 0px;
+    margin-left: 4rem;
+}
+
+.footerNavegacion{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.footerUbicacion{
+    padding: 0px;
+}
+.list-group-item{
+    background-color: rgb(46, 46, 46) ;
+    border: none;
+    color: white;
+    font-size: small;
+}
+
+.tituLista{
+    background-color: rgb(46, 46, 46) ;
+    border: none;
+    color: rgb(227, 187, 137); 
+}
+
+.lista{
+    padding: 0px;
+}
+/***** End Section *****/
